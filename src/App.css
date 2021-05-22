@@ -1,4 +1,14 @@
-#card-dis {
- background-color: red;
- display: inline-flex;
+body {
+  background-image: url('https://images.unsplash.com/photo-1554104299-100e77bd4733?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGdhbWJsaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.card-dis {
+  margin: 0.5rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
 }

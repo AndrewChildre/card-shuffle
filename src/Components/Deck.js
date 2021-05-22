@@ -20,7 +20,7 @@ const Deck2 = () => {
 
         <div>
 
-            <div id='card-dis'>
+            <div className='card-dis'>
                 {cardsx && cardsx.cards.map((card, index) => {
                     return(
                         <div key={index}>
