@@ -4,7 +4,8 @@ const Deck = () => {
 	const [cardsx, setCardsx] = useState(null);
 
 	const getCards = () => {
-		fetch('https://deckofcardsapi.com/api/deck/new/draw/?count=10')
+        
+		fetch(`https://deckofcardsapi.com/api/deck/new/draw/?count=10`)
 			.then((res) => res.json())
 			.then((res) => {
 				console.log(res);
