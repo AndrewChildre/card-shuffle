@@ -2,7 +2,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import { fade, makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
@@ -33,7 +33,9 @@ export default function SearchAppBar() {
 
 					<div className={classes.search}>
 						<form>
-							<Button type='submit' style={{ backgroundColor: 'white' }}>
+							<Button type='submit' style={{ 
+								color: 'red',
+								backgroundColor: 'white' }}>
 								Shuffle
 							</Button>
 						</form>
