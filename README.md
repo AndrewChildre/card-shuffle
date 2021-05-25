@@ -1,7 +1,8 @@
 # Card Shuffler
 
 ## Description
-Basic Card Shuffler, push the shuffle button and the cards will change. This app will shuffle 10 random cards. It is useing an API to get random cards when the shuffle button is pushed
+Basic Card Shuffler, push the shuffle button and the cards will change. This app will shuffle 10 random cards. It is using an API to get random cards when the shuffle button is pushed. 
+It is sleek, clean and fast. There are no unnecessary items to slow the app down or make it heavy on the OS. 
 
 ## How to get started
 
