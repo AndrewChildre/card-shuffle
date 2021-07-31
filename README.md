@@ -1,4 +1,5 @@
 # Card Shuffler
+## REWORKING IN ANOTHER REPO
 
 ## Description
 Basic Card Shuffler, push the shuffle button and the cards will change. This app will shuffle 10 random cards. It is using an API to get random cards when the shuffle button is pushed. 
